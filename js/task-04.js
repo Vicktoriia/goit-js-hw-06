@@ -5,6 +5,7 @@ const buttonMinus = document.querySelector('button[data-action="decrement"]')
 const buttonPlus = document.querySelector('button[data-action="increment"]')
 
 buttonMinus.addEventListener('click', () => {
+	counterValue--
 	displayCounter.textContent = counterValue
 })
 
